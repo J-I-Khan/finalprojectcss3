@@ -94,8 +94,14 @@ p{
 }
 
 .crew{
-    width: 200px;
+    width: 90%;
+    height: auto;
     border-style: solid;
+}
+
+.headshot:hover{
+    width: 125%;
+    height: auto;
 }
 
 .headshot:nth-child(odd){
