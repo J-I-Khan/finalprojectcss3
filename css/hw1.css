@@ -99,16 +99,20 @@ p{
     border-style: solid;
 }
 
+.crew:hover{
+    border-radius: 100px;
+}
+
 .headshot:hover{
     width: 125%;
     height: auto;
 }
 
-.headshot:nth-child(odd){
+.headshot:nth-child(odd):hover{
     background-color: #f7ce00;
 }
 
-.headshot:nth-child(even){
+.headshot:nth-child(even):hover{
     background-color: #c91a1a;
 }
 
