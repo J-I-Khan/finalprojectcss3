@@ -88,7 +88,7 @@ p{
     margin: 10px;
 }
 
-div{
+.headshot{
     font-size: 2vw;
     padding: 5px;
 }
@@ -98,11 +98,11 @@ div{
     border-style: solid;
 }
 
-div:nth-child(odd){
+.headshot:nth-child(odd){
     background-color: #f7ce00;
 }
 
-div:nth-child(even){
+.headshot:nth-child(even){
     background-color: #c91a1a;
 }
 
